@@ -7,18 +7,58 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE1AD5572949B16C0057C2A3 /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1AD5562949B16C0057C2A3 /* AuthView.swift */; };
+		CE1AD55A2949B2380057C2A3 /* AppStorageConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1AD5592949B2380057C2A3 /* AppStorageConstant.swift */; };
+		CE1AD55C2949BDB00057C2A3 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1AD55B2949BDB00057C2A3 /* AuthViewModel.swift */; };
+		CE1AD55F2949BF290057C2A3 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1AD55E2949BF290057C2A3 /* LoginView.swift */; };
+		CE1AD5612949C1170057C2A3 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1AD5602949C1170057C2A3 /* LoginViewModel.swift */; };
+		CE1AD5632949C3CA0057C2A3 /* AppleIcons.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1AD5622949C3CA0057C2A3 /* AppleIcons.swift */; };
+		CE1AD5652949C4400057C2A3 /* AppleIcon+View.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1AD5642949C4400057C2A3 /* AppleIcon+View.swift */; };
 		CE29253A2946FC6800602BE2 /* DaPayApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2925392946FC6800602BE2 /* DaPayApp.swift */; };
 		CE29253C2946FC6800602BE2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE29253B2946FC6800602BE2 /* ContentView.swift */; };
 		CE29253E2946FC6A00602BE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE29253D2946FC6A00602BE2 /* Assets.xcassets */; };
 		CE2925412946FC6A00602BE2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE2925402946FC6A00602BE2 /* Preview Assets.xcassets */; };
+		CE29254C29471AB500602BE2 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE29254B29471AB500602BE2 /* Colors.xcassets */; };
+		CE29254E29471ABE00602BE2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE29254D29471ABE00602BE2 /* Images.xcassets */; };
+		CE29255229471D1E00602BE2 /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE29255129471D1E00602BE2 /* Images.swift */; };
+		CE29255529471F4100602BE2 /* Image+View.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE29255429471F4100602BE2 /* Image+View.swift */; };
+		CE29255729471F7100602BE2 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE29255629471F7100602BE2 /* Colors.swift */; };
+		CE29255929471FB400602BE2 /* OnboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE29255829471FB400602BE2 /* OnboardView.swift */; };
+		CE29255B2947242600602BE2 /* DynamicSize+GeometryProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE29255A2947242600602BE2 /* DynamicSize+GeometryProxy.swift */; };
+		CE29255D2947372200602BE2 /* OnboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE29255C2947372200602BE2 /* OnboardViewModel.swift */; };
+		CE29255F29473E6000602BE2 /* CornerRadius.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE29255E29473E6000602BE2 /* CornerRadius.swift */; };
+		CE2925632947673800602BE2 /* CircleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2925622947673800602BE2 /* CircleModel.swift */; };
+		CEA912E8294B128F00C90F85 /* KeyboardResponder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA912E7294B128F00C90F85 /* KeyboardResponder.swift */; };
+		CEA912ED294B1B6200C90F85 /* VerificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA912EC294B1B6200C90F85 /* VerificationView.swift */; };
+		CEA912EF294B462A00C90F85 /* VerificationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA912EE294B462A00C90F85 /* VerificationViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE1AD5562949B16C0057C2A3 /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
+		CE1AD5592949B2380057C2A3 /* AppStorageConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorageConstant.swift; sourceTree = "<group>"; };
+		CE1AD55B2949BDB00057C2A3 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		CE1AD55E2949BF290057C2A3 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		CE1AD5602949C1170057C2A3 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		CE1AD5622949C3CA0057C2A3 /* AppleIcons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleIcons.swift; sourceTree = "<group>"; };
+		CE1AD5642949C4400057C2A3 /* AppleIcon+View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppleIcon+View.swift"; sourceTree = "<group>"; };
 		CE2925362946FC6800602BE2 /* DaPay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DaPay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE2925392946FC6800602BE2 /* DaPayApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaPayApp.swift; sourceTree = "<group>"; };
 		CE29253B2946FC6800602BE2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CE29253D2946FC6A00602BE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE2925402946FC6A00602BE2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CE29254B29471AB500602BE2 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		CE29254D29471ABE00602BE2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CE29255129471D1E00602BE2 /* Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
+		CE29255429471F4100602BE2 /* Image+View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Image+View.swift"; sourceTree = "<group>"; };
+		CE29255629471F7100602BE2 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		CE29255829471FB400602BE2 /* OnboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardView.swift; sourceTree = "<group>"; };
+		CE29255A2947242600602BE2 /* DynamicSize+GeometryProxy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DynamicSize+GeometryProxy.swift"; sourceTree = "<group>"; };
+		CE29255C2947372200602BE2 /* OnboardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardViewModel.swift; sourceTree = "<group>"; };
+		CE29255E29473E6000602BE2 /* CornerRadius.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CornerRadius.swift; sourceTree = "<group>"; };
+		CE2925622947673800602BE2 /* CircleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleModel.swift; sourceTree = "<group>"; };
+		CEA912E7294B128F00C90F85 /* KeyboardResponder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardResponder.swift; sourceTree = "<group>"; };
+		CEA912EC294B1B6200C90F85 /* VerificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationView.swift; sourceTree = "<group>"; };
+		CEA912EE294B462A00C90F85 /* VerificationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +72,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE1AD5552949B15E0057C2A3 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				CEA912EB294B1B5900C90F85 /* Verification */,
+				CE1AD55D2949BF1D0057C2A3 /* Login */,
+				CE1AD5562949B16C0057C2A3 /* AuthView.swift */,
+				CE1AD55B2949BDB00057C2A3 /* AuthViewModel.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		CE1AD5582949B2280057C2A3 /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				CE1AD5592949B2380057C2A3 /* AppStorageConstant.swift */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		CE1AD55D2949BF1D0057C2A3 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				CE1AD55E2949BF290057C2A3 /* LoginView.swift */,
+				CE1AD5602949C1170057C2A3 /* LoginViewModel.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
 		CE29252D2946FC6800602BE2 = {
 			isa = PBXGroup;
 			children = (
@@ -51,6 +119,10 @@
 		CE2925382946FC6800602BE2 /* DaPay */ = {
 			isa = PBXGroup;
 			children = (
+				CE29254A29471A7F00602BE2 /* Resources */,
+				CE29254929471A7600602BE2 /* Utils */,
+				CE29254829471A6E00602BE2 /* Product */,
+				CE29254729471A6800602BE2 /* Feature */,
 				CE2925392946FC6800602BE2 /* DaPayApp.swift */,
 				CE29253B2946FC6800602BE2 /* ContentView.swift */,
 				CE29253D2946FC6A00602BE2 /* Assets.xcassets */,
@@ -65,6 +137,98 @@
 				CE2925402946FC6A00602BE2 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CE29254729471A6800602BE2 /* Feature */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Feature;
+			sourceTree = "<group>";
+		};
+		CE29254829471A6E00602BE2 /* Product */ = {
+			isa = PBXGroup;
+			children = (
+				CE1AD5552949B15E0057C2A3 /* Auth */,
+				CE29254F29471B4400602BE2 /* Onboard */,
+			);
+			path = Product;
+			sourceTree = "<group>";
+		};
+		CE29254929471A7600602BE2 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				CEA912EA294B1B1400C90F85 /* Model */,
+				CEA912E9294B167F00C90F85 /* ViewModel */,
+				CE1AD5582949B2280057C2A3 /* Constant */,
+				CE29255329471F2400602BE2 /* Extension */,
+				CE29255029471D1100602BE2 /* Enums */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		CE29254A29471A7F00602BE2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CE29254B29471AB500602BE2 /* Colors.xcassets */,
+				CE29254D29471ABE00602BE2 /* Images.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		CE29254F29471B4400602BE2 /* Onboard */ = {
+			isa = PBXGroup;
+			children = (
+				CE29255829471FB400602BE2 /* OnboardView.swift */,
+				CE29255C2947372200602BE2 /* OnboardViewModel.swift */,
+			);
+			path = Onboard;
+			sourceTree = "<group>";
+		};
+		CE29255029471D1100602BE2 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				CE29255129471D1E00602BE2 /* Images.swift */,
+				CE1AD5622949C3CA0057C2A3 /* AppleIcons.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		CE29255329471F2400602BE2 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				CE29255429471F4100602BE2 /* Image+View.swift */,
+				CE29255629471F7100602BE2 /* Colors.swift */,
+				CE29255A2947242600602BE2 /* DynamicSize+GeometryProxy.swift */,
+				CE29255E29473E6000602BE2 /* CornerRadius.swift */,
+				CE1AD5642949C4400057C2A3 /* AppleIcon+View.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		CEA912E9294B167F00C90F85 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CEA912E7294B128F00C90F85 /* KeyboardResponder.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CEA912EA294B1B1400C90F85 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CE2925622947673800602BE2 /* CircleModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CEA912EB294B1B5900C90F85 /* Verification */ = {
+			isa = PBXGroup;
+			children = (
+				CEA912EC294B1B6200C90F85 /* VerificationView.swift */,
+				CEA912EE294B462A00C90F85 /* VerificationViewModel.swift */,
+			);
+			path = Verification;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +289,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE29254C29471AB500602BE2 /* Colors.xcassets in Resources */,
+				CE29254E29471ABE00602BE2 /* Images.xcassets in Resources */,
 				CE2925412946FC6A00602BE2 /* Preview Assets.xcassets in Resources */,
 				CE29253E2946FC6A00602BE2 /* Assets.xcassets in Resources */,
 			);
@@ -137,8 +303,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE29255529471F4100602BE2 /* Image+View.swift in Sources */,
+				CEA912E8294B128F00C90F85 /* KeyboardResponder.swift in Sources */,
+				CE1AD5652949C4400057C2A3 /* AppleIcon+View.swift in Sources */,
+				CE29255729471F7100602BE2 /* Colors.swift in Sources */,
+				CEA912ED294B1B6200C90F85 /* VerificationView.swift in Sources */,
+				CE29255D2947372200602BE2 /* OnboardViewModel.swift in Sources */,
 				CE29253C2946FC6800602BE2 /* ContentView.swift in Sources */,
+				CE29255B2947242600602BE2 /* DynamicSize+GeometryProxy.swift in Sources */,
+				CE2925632947673800602BE2 /* CircleModel.swift in Sources */,
+				CE29255229471D1E00602BE2 /* Images.swift in Sources */,
+				CE1AD55A2949B2380057C2A3 /* AppStorageConstant.swift in Sources */,
+				CE1AD5612949C1170057C2A3 /* LoginViewModel.swift in Sources */,
+				CE1AD5632949C3CA0057C2A3 /* AppleIcons.swift in Sources */,
+				CEA912EF294B462A00C90F85 /* VerificationViewModel.swift in Sources */,
+				CE1AD55F2949BF290057C2A3 /* LoginView.swift in Sources */,
+				CE29255929471FB400602BE2 /* OnboardView.swift in Sources */,
 				CE29253A2946FC6800602BE2 /* DaPayApp.swift in Sources */,
+				CE1AD5572949B16C0057C2A3 /* AuthView.swift in Sources */,
+				CE1AD55C2949BDB00057C2A3 /* AuthViewModel.swift in Sources */,
+				CE29255F29473E6000602BE2 /* CornerRadius.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

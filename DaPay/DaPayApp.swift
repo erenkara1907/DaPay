@@ -9,9 +9,13 @@ import SwiftUI
 
 @main
 struct DaPayApp: App {
+    @StateObject var viewModel: OnboardViewModel = OnboardViewModel()
+    @StateObject var verificationViewModel: VerificationViewModel = VerificationViewModel()
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(viewModel)
+                .environmentObject(verificationViewModel)
         }
     }
 }
